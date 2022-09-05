@@ -2,7 +2,7 @@
 {
     static public void Main(string[] args)
     {
-        LinkedList<int> l1 = new LinkedList<int>();
+        /*LinkedList<int> l1 = new LinkedList<int>();
         l1.AddLast(9);
         l1.AddLast(9);
         l1.AddLast(9);
@@ -17,11 +17,13 @@
         l2.AddLast(9);
         l2.AddLast(9);
 
-        var l3 = AddTwoNumbers(l1, l2);
-        Console.WriteLine();
+        var l3 = SumTwoLinkedLists(l1, l2);*/
+
+
+
         Console.ReadLine();
     }
-    public static LinkedList<int> AddTwoNumbers(LinkedList<int> l1, LinkedList<int> l2)
+    public static LinkedList<int> SumTwoLinkedLists(LinkedList<int> l1, LinkedList<int> l2)
     {
 
         LinkedList<int> l3 = new LinkedList<int>();
@@ -74,5 +76,50 @@
 
         return l3;
 
+    }
+
+    public ListNode AddTwoNodes(ListNode l1, ListNode l2)
+    {
+        ListNode dummyHead = new ListNode(0);
+        ListNode l3 = dummyHead;
+
+        int carry = 0;
+
+        while (l1 != null || l2 != null)
+        {
+            int l1Val = l1 != null ? l1.val : 0;
+            int l2Val = l2 != null ? l2.val : 0;
+
+            int currentSum = l1Val + l2Val + carry;
+            carry = currentSum / 10;
+            int lastDigit = currentSum % 10;
+
+            ListNode newNode = new ListNode(lastDigit);
+            l3.next = newNode;
+
+
+            if (l1 != null) l1 = l1.next;
+            if (l2 != null) l2 = l2.next;
+            l3 = l3.next;
+        }
+
+        if (carry != default(int))
+        {
+            ListNode newNode = new ListNode(carry);
+            l3.next = newNode;
+            l3 = l3.next;
+        }
+
+        return dummyHead.next;
+    }
+}
+public class ListNode
+{
+    public int val;
+    public ListNode next;
+    public ListNode(int val = 0, ListNode next = null)
+    {
+        this.val = val;
+        this.next = next;
     }
 }
