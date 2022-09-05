@@ -1,0 +1,15 @@
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\bin\Debug\net6.0\CAAddTwoNumbers.exe
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\bin\Debug\net6.0\CAAddTwoNumbers.deps.json
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\bin\Debug\net6.0\CAAddTwoNumbers.runtimeconfig.json
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\bin\Debug\net6.0\CAAddTwoNumbers.dll
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\bin\Debug\net6.0\CAAddTwoNumbers.pdb
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\CAAddTwoNumbers.csproj.AssemblyReference.cache
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\CAAddTwoNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\CAAddTwoNumbers.AssemblyInfoInputs.cache
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\CAAddTwoNumbers.AssemblyInfo.cs
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\CAAddTwoNumbers.csproj.CoreCompileInputs.cache
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\CAAddTwoNumbers.dll
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\refint\CAAddTwoNumbers.dll
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\CAAddTwoNumbers.pdb
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\CAAddTwoNumbers.genruntimeconfig.cache
+C:\Users\cagda\Desktop\CAAddTwoNumbers\CAAddTwoNumbers\obj\Debug\net6.0\ref\CAAddTwoNumbers.dll
